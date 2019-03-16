@@ -199,6 +199,7 @@ public class MapaController extends Controller implements Initializable {
         });
         this.endChanged.addListener((o,f,t)->{
             if(t){
+                System.out.println("asdasdsad");
                 if(this.endVertex!=null)
                     this.endVertex.setId(null);
                 this.endVertex = this.selVertex;
