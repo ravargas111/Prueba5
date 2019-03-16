@@ -141,6 +141,7 @@ public class MapaController extends Controller implements Initializable {
 
     @Override
     public void initialize() {
+        System.out.println("Nueva línea agregada");
     }
     
     private void initInstances(){
